@@ -14,7 +14,7 @@ const diceButton = () => {
         return response.json();
     })
     .then((data) => {
-        adviceButton.textContent = data.slip.advice;
+        adviceText.textContent = data.slip.advice;
         adviceId.textContent = `Advice #${data.slip.id}`;
     })
     .catch((error) => {
