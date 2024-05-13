@@ -86,4 +86,8 @@ body {
         width: 540px;
         height: 360px;
     }
+
+    .divider {
+        width: 444px;
+    }
 }

@@ -4,7 +4,7 @@ const adviceId = document.querySelector(".card-container p");
 
 
 
-
+// Dice Button Function
 const diceButton = () => {
     fetch("https://api.adviceslip.com/advice")
     .then((response) => response.json())
@@ -17,13 +17,6 @@ const diceButton = () => {
 }   
 
 
-
-
-
-
-
-
-
-
+// Event Listener
 
 adviceButton.addEventListener("click", diceButton);
