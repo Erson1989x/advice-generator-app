@@ -44,8 +44,8 @@ body {
 .card-container p {
     margin-top: 1rem;
     color: var(--neonGreen);
-    font-size: 1.12rem;
-    letter-spacing: 2px;
+    font-size: 1rem;
+    letter-spacing: 3px;
 }
 
 /* --- Advice --- */
